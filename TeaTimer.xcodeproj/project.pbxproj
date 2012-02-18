@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD35124214F03A6A00110A72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD35124114F03A6A00110A72 /* Cocoa.framework */; };
+		DD35124C14F03A6A00110A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD35124A14F03A6A00110A72 /* InfoPlist.strings */; };
+		DD35124E14F03A6A00110A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD35124D14F03A6A00110A72 /* main.m */; };
+		DD35125214F03A6A00110A72 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD35125014F03A6A00110A72 /* Credits.rtf */; };
+		DD35125514F03A6A00110A72 /* HFRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD35125414F03A6A00110A72 /* HFRAppDelegate.m */; };
+		DD35125814F03A6A00110A72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD35125614F03A6A00110A72 /* MainMenu.xib */; };
+		DD35126014F03A6A00110A72 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD35125F14F03A6A00110A72 /* SenTestingKit.framework */; };
+		DD35126114F03A6A00110A72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD35124114F03A6A00110A72 /* Cocoa.framework */; };
+		DD35126914F03A6A00110A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD35126714F03A6A00110A72 /* InfoPlist.strings */; };
+		DD35126C14F03A6A00110A72 /* TeaTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD35126B14F03A6A00110A72 /* TeaTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD35126214F03A6A00110A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD35123414F03A6A00110A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD35123C14F03A6A00110A72;
+			remoteInfo = TeaTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD35123D14F03A6A00110A72 /* TeaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD35124114F03A6A00110A72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DD35124414F03A6A00110A72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD35124514F03A6A00110A72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD35124614F03A6A00110A72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD35124914F03A6A00110A72 /* TeaTimer-Info.plist */ = {isa = PBXFileReference; path = "TeaTimer-Info.plist"; sourceTree = "<group>"; };
+		DD35124B14F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD35124D14F03A6A00110A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD35124F14F03A6A00110A72 /* TeaTimer-Prefix.pch */ = {isa = PBXFileReference; path = "TeaTimer-Prefix.pch"; sourceTree = "<group>"; };
+		DD35125114F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DD35125314F03A6A00110A72 /* HFRAppDelegate.h */ = {isa = PBXFileReference; path = HFRAppDelegate.h; sourceTree = "<group>"; };
+		DD35125414F03A6A00110A72 /* HFRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFRAppDelegate.m; sourceTree = "<group>"; };
+		DD35125714F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD35125E14F03A6A00110A72 /* TeaTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD35125F14F03A6A00110A72 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD35126614F03A6A00110A72 /* TeaTimerTests-Info.plist */ = {isa = PBXFileReference; path = "TeaTimerTests-Info.plist"; sourceTree = "<group>"; };
+		DD35126814F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD35126A14F03A6A00110A72 /* TeaTimerTests.h */ = {isa = PBXFileReference; path = TeaTimerTests.h; sourceTree = "<group>"; };
+		DD35126B14F03A6A00110A72 /* TeaTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD35123A14F03A6A00110A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35124214F03A6A00110A72 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD35125A14F03A6A00110A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35126014F03A6A00110A72 /* SenTestingKit.framework in Frameworks */,
+				DD35126114F03A6A00110A72 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD35123214F03A6A00110A72 = {
+			isa = PBXGroup;
+			children = (
+				DD35124714F03A6A00110A72 /* TeaTimer */,
+				DD35126414F03A6A00110A72 /* TeaTimerTests */,
+				DD35124014F03A6A00110A72 /* Frameworks */,
+				DD35123E14F03A6A00110A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD35123E14F03A6A00110A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD35123D14F03A6A00110A72 /* TeaTimer.app */,
+				DD35125E14F03A6A00110A72 /* TeaTimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD35124014F03A6A00110A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD35124114F03A6A00110A72 /* Cocoa.framework */,
+				DD35125F14F03A6A00110A72 /* SenTestingKit.framework */,
+				DD35124314F03A6A00110A72 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD35124314F03A6A00110A72 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD35124414F03A6A00110A72 /* AppKit.framework */,
+				DD35124514F03A6A00110A72 /* CoreData.framework */,
+				DD35124614F03A6A00110A72 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DD35124714F03A6A00110A72 /* TeaTimer */ = {
+			isa = PBXGroup;
+			children = (
+				DD35125314F03A6A00110A72 /* HFRAppDelegate.h */,
+				DD35125414F03A6A00110A72 /* HFRAppDelegate.m */,
+				DD35125614F03A6A00110A72 /* MainMenu.xib */,
+				DD35124814F03A6A00110A72 /* Supporting Files */,
+			);
+			path = TeaTimer;
+			sourceTree = "<group>";
+		};
+		DD35124814F03A6A00110A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD35124914F03A6A00110A72 /* TeaTimer-Info.plist */,
+				DD35124A14F03A6A00110A72 /* InfoPlist.strings */,
+				DD35124D14F03A6A00110A72 /* main.m */,
+				DD35124F14F03A6A00110A72 /* TeaTimer-Prefix.pch */,
+				DD35125014F03A6A00110A72 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD35126414F03A6A00110A72 /* TeaTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD35126A14F03A6A00110A72 /* TeaTimerTests.h */,
+				DD35126B14F03A6A00110A72 /* TeaTimerTests.m */,
+				DD35126514F03A6A00110A72 /* Supporting Files */,
+			);
+			path = TeaTimerTests;
+			sourceTree = "<group>";
+		};
+		DD35126514F03A6A00110A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD35126614F03A6A00110A72 /* TeaTimerTests-Info.plist */,
+				DD35126714F03A6A00110A72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD35123C14F03A6A00110A72 /* TeaTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD35126F14F03A6A00110A72 /* Build configuration list for PBXNativeTarget "TeaTimer" */;
+			buildPhases = (
+				DD35123914F03A6A00110A72 /* Sources */,
+				DD35123A14F03A6A00110A72 /* Frameworks */,
+				DD35123B14F03A6A00110A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeaTimer;
+			productName = TeaTimer;
+			productReference = DD35123D14F03A6A00110A72 /* TeaTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD35125D14F03A6A00110A72 /* TeaTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD35127214F03A6A00110A72 /* Build configuration list for PBXNativeTarget "TeaTimerTests" */;
+			buildPhases = (
+				DD35125914F03A6A00110A72 /* Sources */,
+				DD35125A14F03A6A00110A72 /* Frameworks */,
+				DD35125B14F03A6A00110A72 /* Resources */,
+				DD35125C14F03A6A00110A72 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD35126314F03A6A00110A72 /* PBXTargetDependency */,
+			);
+			name = TeaTimerTests;
+			productName = TeaTimerTests;
+			productReference = DD35125E14F03A6A00110A72 /* TeaTimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD35123414F03A6A00110A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HFR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DD35123714F03A6A00110A72 /* Build configuration list for PBXProject "TeaTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD35123214F03A6A00110A72;
+			productRefGroup = DD35123E14F03A6A00110A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD35123C14F03A6A00110A72 /* TeaTimer */,
+				DD35125D14F03A6A00110A72 /* TeaTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD35123B14F03A6A00110A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35124C14F03A6A00110A72 /* InfoPlist.strings in Resources */,
+				DD35125214F03A6A00110A72 /* Credits.rtf in Resources */,
+				DD35125814F03A6A00110A72 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD35125B14F03A6A00110A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35126914F03A6A00110A72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD35125C14F03A6A00110A72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD35123914F03A6A00110A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35124E14F03A6A00110A72 /* main.m in Sources */,
+				DD35125514F03A6A00110A72 /* HFRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD35125914F03A6A00110A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35126C14F03A6A00110A72 /* TeaTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD35126314F03A6A00110A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD35123C14F03A6A00110A72 /* TeaTimer */;
+			targetProxy = DD35126214F03A6A00110A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD35124A14F03A6A00110A72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD35124B14F03A6A00110A72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD35125014F03A6A00110A72 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD35125114F03A6A00110A72 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DD35125614F03A6A00110A72 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD35125714F03A6A00110A72 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DD35126714F03A6A00110A72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD35126814F03A6A00110A72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD35126D14F03A6A00110A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD35126E14F03A6A00110A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD35127014F03A6A00110A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeaTimer/TeaTimer-Prefix.pch";
+				INFOPLIST_FILE = "TeaTimer/TeaTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD35127114F03A6A00110A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeaTimer/TeaTimer-Prefix.pch";
+				INFOPLIST_FILE = "TeaTimer/TeaTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD35127314F03A6A00110A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeaTimer.app/Contents/MacOS/TeaTimer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeaTimer/TeaTimer-Prefix.pch";
+				INFOPLIST_FILE = "TeaTimerTests/TeaTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD35127414F03A6A00110A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeaTimer.app/Contents/MacOS/TeaTimer";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeaTimer/TeaTimer-Prefix.pch";
+				INFOPLIST_FILE = "TeaTimerTests/TeaTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD35123714F03A6A00110A72 /* Build configuration list for PBXProject "TeaTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD35126D14F03A6A00110A72 /* Debug */,
+				DD35126E14F03A6A00110A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD35126F14F03A6A00110A72 /* Build configuration list for PBXNativeTarget "TeaTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD35127014F03A6A00110A72 /* Debug */,
+				DD35127114F03A6A00110A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD35127214F03A6A00110A72 /* Build configuration list for PBXNativeTarget "TeaTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD35127314F03A6A00110A72 /* Debug */,
+				DD35127414F03A6A00110A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD35123414F03A6A00110A72 /* Project object */;
+}
