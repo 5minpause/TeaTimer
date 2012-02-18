@@ -17,6 +17,8 @@
 		DD35126114F03A6A00110A72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD35124114F03A6A00110A72 /* Cocoa.framework */; };
 		DD35126914F03A6A00110A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD35126714F03A6A00110A72 /* InfoPlist.strings */; };
 		DD35126C14F03A6A00110A72 /* TeaTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD35126B14F03A6A00110A72 /* TeaTimerTests.m */; };
+		DD35127614F03A8400110A72 /* teatimer.icns in Resources */ = {isa = PBXBuildFile; fileRef = DD35127514F03A8400110A72 /* teatimer.icns */; };
+		DD35128414F0439300110A72 /* HFRTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD35128314F0439300110A72 /* HFRTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,23 @@
 		DD35124414F03A6A00110A72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DD35124514F03A6A00110A72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD35124614F03A6A00110A72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DD35124914F03A6A00110A72 /* TeaTimer-Info.plist */ = {isa = PBXFileReference; path = "TeaTimer-Info.plist"; sourceTree = "<group>"; };
+		DD35124914F03A6A00110A72 /* TeaTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeaTimer-Info.plist"; sourceTree = "<group>"; };
 		DD35124B14F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD35124D14F03A6A00110A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD35124F14F03A6A00110A72 /* TeaTimer-Prefix.pch */ = {isa = PBXFileReference; path = "TeaTimer-Prefix.pch"; sourceTree = "<group>"; };
+		DD35124F14F03A6A00110A72 /* TeaTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeaTimer-Prefix.pch"; sourceTree = "<group>"; };
 		DD35125114F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DD35125314F03A6A00110A72 /* HFRAppDelegate.h */ = {isa = PBXFileReference; path = HFRAppDelegate.h; sourceTree = "<group>"; };
+		DD35125314F03A6A00110A72 /* HFRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFRAppDelegate.h; sourceTree = "<group>"; };
 		DD35125414F03A6A00110A72 /* HFRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFRAppDelegate.m; sourceTree = "<group>"; };
 		DD35125714F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DD35125E14F03A6A00110A72 /* TeaTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD35125F14F03A6A00110A72 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DD35126614F03A6A00110A72 /* TeaTimerTests-Info.plist */ = {isa = PBXFileReference; path = "TeaTimerTests-Info.plist"; sourceTree = "<group>"; };
+		DD35126614F03A6A00110A72 /* TeaTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeaTimerTests-Info.plist"; sourceTree = "<group>"; };
 		DD35126814F03A6A00110A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DD35126A14F03A6A00110A72 /* TeaTimerTests.h */ = {isa = PBXFileReference; path = TeaTimerTests.h; sourceTree = "<group>"; };
+		DD35126A14F03A6A00110A72 /* TeaTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeaTimerTests.h; sourceTree = "<group>"; };
 		DD35126B14F03A6A00110A72 /* TeaTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaTimerTests.m; sourceTree = "<group>"; };
+		DD35127514F03A8400110A72 /* teatimer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = teatimer.icns; sourceTree = "<group>"; };
+		DD35128214F0439300110A72 /* HFRTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HFRTimer.h; path = Classes/HFRTimer.h; sourceTree = "<group>"; };
+		DD35128314F0439300110A72 /* HFRTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HFRTimer.m; path = Classes/HFRTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,8 @@
 			children = (
 				DD35125314F03A6A00110A72 /* HFRAppDelegate.h */,
 				DD35125414F03A6A00110A72 /* HFRAppDelegate.m */,
+				DD35128214F0439300110A72 /* HFRTimer.h */,
+				DD35128314F0439300110A72 /* HFRTimer.m */,
 				DD35125614F03A6A00110A72 /* MainMenu.xib */,
 				DD35124814F03A6A00110A72 /* Supporting Files */,
 			);
@@ -125,6 +132,7 @@
 		DD35124814F03A6A00110A72 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD35127714F03B4E00110A72 /* Images */,
 				DD35124914F03A6A00110A72 /* TeaTimer-Info.plist */,
 				DD35124A14F03A6A00110A72 /* InfoPlist.strings */,
 				DD35124D14F03A6A00110A72 /* main.m */,
@@ -151,6 +159,15 @@
 				DD35126714F03A6A00110A72 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD35127714F03B4E00110A72 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD35127514F03A8400110A72 /* teatimer.icns */,
+			);
+			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +217,7 @@
 			attributes = {
 				CLASSPREFIX = HFR;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = accurateCat;
 			};
 			buildConfigurationList = DD35123714F03A6A00110A72 /* Build configuration list for PBXProject "TeaTimer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -227,6 +245,7 @@
 				DD35124C14F03A6A00110A72 /* InfoPlist.strings in Resources */,
 				DD35125214F03A6A00110A72 /* Credits.rtf in Resources */,
 				DD35125814F03A6A00110A72 /* MainMenu.xib in Resources */,
+				DD35127614F03A8400110A72 /* teatimer.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +282,7 @@
 			files = (
 				DD35124E14F03A6A00110A72 /* main.m in Sources */,
 				DD35125514F03A6A00110A72 /* HFRAppDelegate.m in Sources */,
+				DD35128414F0439300110A72 /* HFRTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
